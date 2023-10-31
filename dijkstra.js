@@ -1,4 +1,9 @@
-//This algorithm is used to find the shortest path between a source node and all other nodes in a weighted graph.
+//This algorithm is used to find the shortest path between a source node and all other nodes in a weighted graph. Dijkstra's algorithm is widely used in various fields:
+//
+// Communication Networks: To find the fastest path to transmit data.
+// GPS Systems: To calculate the shortest path between two points on a map.
+// Video games: In games with open worlds where the AI must move from one point to another.
+// Robotics: For path planning in a known environment.
 function dijkstra(graph, start) {
     const dist = {};
     const visited = new Set();
